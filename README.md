@@ -279,13 +279,13 @@ typically 1.3×–4.5× faster end-to-end on H100.
 ## Installation
 
 ```bash
-pip install "gemma-triton-flash-attn[hf]"
+pip install "gemma-triton-flash-attn[hf] @ git+https://github.com/StevenShi-23/gemma-triton-flash-attn.git@v0.2.0"
 ```
 
 To install from source:
 
 ```bash
-git clone https://github.com/zzhhjjj/gemma-triton-flash-attn.git
+git clone --branch v0.2.0 https://github.com/StevenShi-23/gemma-triton-flash-attn.git
 cd gemma-triton-flash-attn
 pip install -e ".[hf]"
 ```

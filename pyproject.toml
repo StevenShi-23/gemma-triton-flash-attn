@@ -30,9 +30,10 @@ hf = ["transformers>=5.5.0"]
 dev = ["pytest", "pytest-benchmark", "transformers>=5.5.0"]
 
 [project.urls]
-Homepage = "https://github.com/zzhhjjj/gemma-triton-flash-attn"
-Repository = "https://github.com/zzhhjjj/gemma-triton-flash-attn"
-Issues = "https://github.com/zzhhjjj/gemma-triton-flash-attn/issues"
+Homepage = "https://github.com/StevenShi-23/gemma-triton-flash-attn"
+Repository = "https://github.com/StevenShi-23/gemma-triton-flash-attn"
+Issues = "https://github.com/StevenShi-23/gemma-triton-flash-attn/issues"
+Upstream = "https://github.com/zzhhjjj/gemma-triton-flash-attn"
 
 [tool.setuptools]
 packages = ["gemma_triton_flash_attn"]
